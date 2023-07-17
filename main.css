@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Montserrat:ital@1&family=Poppins&family=Quicksand:wght@300;400&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+#header
+{
+    height: 46px;
+    background-color: #333;
+}
+.nav li
+{
+    display: inline-block;
+}
+.nav li a
+{
+    color: #fff;
+    line-height: 46px;
+    padding: 0 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: block;
+}
+.nav li:hover a
+{
+    background-color: #fff;
+    color: #000;
+}
+.nav .ti-menu
+{
+    font-size: 14px;
+}
+.nav .ti-truck
+{
+    font-size: 19px;
+}
